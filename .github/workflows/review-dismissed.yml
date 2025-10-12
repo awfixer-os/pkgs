@@ -1,8 +1,11 @@
 name: Review dismissed
 
 on:
-  pull_request_review:
-    types: [dismissed]
+  workflow_dispatch:
+
+#on:
+#  pull_request_review:
+#    types: [dismissed]
 
 permissions: {}
 

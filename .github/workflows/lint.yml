@@ -1,17 +1,18 @@
 name: Lint
 
 on:
-  workflow_call:
-    inputs:
-      mergedSha:
-        required: true
-        type: string
-      targetSha:
-        required: true
-        type: string
-    secrets:
-      CACHIX_AUTH_TOKEN:
-        required: true
+  workflow_dispatch:
+#  workflow_call:
+#    inputs:
+#      mergedSha:
+#        required: true
+#        type: string
+#      targetSha:
+#        required: true
+#        type: string
+#    secrets:
+#      CACHIX_AUTH_TOKEN:
+#        required: true
 
 permissions: {}
 

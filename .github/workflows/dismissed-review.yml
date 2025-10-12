@@ -1,10 +1,11 @@
 name: Dismissed review
 
 on:
-  workflow_run:
-    workflows:
-      - Review dismissed
-    types: [completed]
+  workflow_dispatch:
+#  workflow_run:
+#    workflows:
+#      - Review dismissed
+#    types: [completed]
 
 concurrency:
   group: dismissed-review-${{ github.workflow }}-${{ github.event_name }}-${{ github.event.pull_request.number || github.run_id }}

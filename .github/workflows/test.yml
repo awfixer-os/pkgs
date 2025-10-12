@@ -1,7 +1,10 @@
 name: Test
 
 on:
-  pull_request:
+  workflow_dispatch:
+
+#on:
+#  pull_request:
 
 concurrency:
   group: test-${{ github.workflow }}-${{ github.event_name }}-${{ github.event.pull_request.number || github.run_id }}
