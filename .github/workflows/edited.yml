@@ -13,8 +13,9 @@
 name: "Edited base branch"
 
 on:
-  pull_request_target:
-    types: [edited]
+  workflow_dispatch:
+#  pull_request_target:
+#    types: [edited]
 
 concurrency:
   group: edited-${{ github.workflow }}-${{ github.event_name }}-${{ github.event.pull_request.number || github.run_id }}
