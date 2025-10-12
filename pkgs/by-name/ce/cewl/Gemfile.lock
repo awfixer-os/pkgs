@@ -17,7 +17,7 @@ GEM
     ostruct (0.6.2)
     pstore (0.2.0)
     racc (1.8.1)
-    rexml (3.4.1)
+    rexml (3.4.4)
     rubyzip (2.4.1)
     spider (0.5.4)
 
