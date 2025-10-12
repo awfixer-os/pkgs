@@ -1014,10 +1014,10 @@
   dependencies:
     sparse-bitfield "^3.0.3"
 
-"@mysql/xdevapi@8.0.33":
-  version "8.0.33"
-  resolved "https://registry.yarnpkg.com/@mysql/xdevapi/-/xdevapi-8.0.33.tgz#966f71563a2e2a27cb5279fdf72fa9ee41538ec2"
-  integrity sha512-SXy+1CMtTb6qyKo/vzj/krWU4Ui6PnEtkkUjwdLpVdxkt0noZdDMmoGUxtMsm+Y2l15tme1MVuYvxMK7RJVfEA==
+"@mysql/xdevapi@8.0.35":
+  version "8.0.35"
+  resolved "https://registry.yarnpkg.com/@mysql/xdevapi/-/xdevapi-8.0.35.tgz#974886fe9ab703ecb8a7c988ce870b5562b88b26"
+  integrity sha512-l7HoBt1l0GwdCBXBrqri4kPBbJrqsyvaa4eqXvq50aWWArOTc5XGV06FWF1epxT+RORBy7scZTWFANxpr4Sfuw==
   dependencies:
     google-protobuf "3.19.4"
     lossless-json "2.0.1"
