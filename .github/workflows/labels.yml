@@ -6,16 +6,17 @@
 name: Labels
 
 on:
-  schedule:
-    - cron: '07,17,27,37,47,57 * * * *'
-  workflow_call:
-    inputs:
-      headBranch:
-        required: true
-        type: string
-    secrets:
-      NIXPKGS_CI_APP_PRIVATE_KEY:
-        required: true
+  #  workflow_run:
+  #  schedule:
+  #    - cron: '07,17,27,37,47,57 * * * *'
+  #  workflow_call:
+  #    inputs:
+  #      headBranch:
+  #        required: true
+  #        type: string
+  #    secrets:
+  #      NIXPKGS_CI_APP_PRIVATE_KEY:
+  #        required: true
   workflow_dispatch:
 
 concurrency:
