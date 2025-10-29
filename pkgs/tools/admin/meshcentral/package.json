@@ -130,7 +130,7 @@
     "telegram": "2.19.8",
     "input": "1.0.1",
     "discord.js": "14.6.0",
-    "@xmpp/client": "0.13.1",
+    "@xmpp/client": "0.14.0",
     "node-pushover": "1.0.0",
     "zulip": "0.1.0",
     "web-push": "3.6.6",
